@@ -5,10 +5,12 @@
   "description": "[![Actions Status](https://github.com/maestro-lab/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/maestro-lab/frontend-project-44/actions)",
   "main": "index.js",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
     "brain-games": "node bin/brain-games.js",
+    "brain-even": "node bin/brain-even.js",
     "lint": "npx eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
