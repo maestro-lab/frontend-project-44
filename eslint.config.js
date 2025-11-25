@@ -1,5 +1,5 @@
-import js from '@eslint/js';
-import stylistic from '@stylistic/eslint-plugin';
+import js from '@eslint/js'
+import stylistic from '@stylistic/eslint-plugin'
 
 export default [
   js.configs.recommended,
@@ -9,7 +9,6 @@ export default [
       ecmaVersion: 'latest',
       sourceType: 'module',
       globals: {
-        // Node.js globals
         console: 'readonly',
         process: 'readonly',
         __dirname: 'readonly',
@@ -18,18 +17,21 @@ export default [
         global: 'readonly',
         module: 'readonly',
         require: 'readonly',
-        exports: 'readonly'
-      }
+        exports: 'readonly',
+      },
     },
     plugins: {
-      '@stylistic': stylistic
+      '@stylistic': stylistic,
     },
     rules: {
-      '@stylistic/semi': 'error',
+      '@stylistic/semi': ['error', 'never'],
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/indent': ['error', 2],
-      '@stylistic/comma-dangle': ['error', 'never'],
-      '@stylistic/space-before-function-paren': ['error', 'always']
-    }
-  }
-];
+      '@stylistic/comma-dangle': ['error', 'always-multiline'],
+      '@stylistic/space-before-function-paren': ['error', 'always'],
+      '@stylistic/eol-last': ['error', 'always'],
+      '@stylistic/no-trailing-spaces': 'error',
+      '@stylistic/arrow-parens': ['error', 'as-needed'],
+    },
+  },
+]
