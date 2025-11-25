@@ -3,3 +3,6 @@ install:
 
 brain-games:
 	npm run brain-games
+
+lint:
+	npx eslint .

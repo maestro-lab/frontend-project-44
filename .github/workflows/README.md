@@ -1,3 +1,14 @@
+[![Actions Status](https://github.com/maestro-lab/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/maestro-lab/frontend-project-44/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/<your-badge-id>/maintainability)](https://codeclimate.com/github/maestro-lab/frontend-project-44/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/<your-badge-id>/coverage)](https://codeclimate.com/github/maestro-lab/frontend-project-44/test_coverage)
+
+# Frontend Project 44
+
+
+
+
+
+
 # Automatic tests
 
 After completing all the steps in the project, automatic tests will become available to you. Tests are run on each commit - once all tasks in the Hexlet interface are completed, make a commit, and the tests will run automatically.
